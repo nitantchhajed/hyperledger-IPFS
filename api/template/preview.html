@@ -1,0 +1,233 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <style>
+        .certificate_preview_page {
+            padding: 4em 0em;
+        }
+
+        .certificate_preview_page .certificate_preview_box {
+            border: 4px solid #000;
+            outline: 2px solid #000;
+            outline-offset: 2px;
+            padding: 2em;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        .certificate_preview_page .certificate_preview_box .preview_head {
+            display: flex;
+            justify-content: center;
+        }
+
+        .certificate_preview_page .certificate_preview_box .preview_head img {
+            width: 100px;
+        }
+
+        .certificate_preview_page .certificate_preview_box .preview_head_content {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .certificate_preview_page .certificate_preview_box .preview_head_content h4 {
+            text-transform: uppercase;
+            margin-bottom: 0;
+            text-align: center;
+        }
+
+        .certificate_preview_page .certificate_preview_box .preview_head_content p {
+            margin-bottom: 0;
+        }
+
+        .certificate_preview_page .certificate_preview_box .preview_head_logos {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .certificate_preview_page .certificate_preview_box .preview_head_logos .medical_and_health img {
+            width: 100px;
+        }
+
+        .certificate_preview_page .certificate_preview_box .preview_head_logos .birth_and_death img {
+            width: 100px;
+        }
+
+        .certificate_preview_page .certificate_preview_box .main_content {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .certificate_preview_page .certificate_preview_box .main_content h4 {
+            text-decoration: underline;
+            text-transform: uppercase;
+        }
+
+        .certificate_preview_page .certificate_preview_box .main_content h6 {
+            text-align: center;
+            font-size: 1.2em;
+        }
+
+        .certificate_preview_page .certificate_preview_box .main_content tr td {
+            text-transform: capitalize;
+        }
+
+        .certificate_preview_page .certificate_preview_box .digital__approval {
+            margin-top: 4em;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+        }
+
+        .certificate_preview_page .certificate_preview_box .digital__approval .certifiedBy img {
+            width: 100px;
+        }
+
+        .certificate_preview_page .certificate_preview_box .note {
+            margin-top: 1em;
+            font-size: 14px;
+        }
+
+        .certificate_preview_page .print_btn {
+            background-color: #29367C;
+            border: none;
+            border-radius: 3px;
+            color: #fff;
+            padding: 5px 25px;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="certificate_preview_page">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="certificate_preview_box">
+                        <div class="preview_head">
+                            <img src="govt-of-telangana.png" fluid="" alt="logo">
+                        </div>
+                        <div class="preview_head_logos">
+                            <div class="medical_and_health">
+                                <img src="govt-of-telangana.png" alt="medical" fluid="">
+                            </div>
+                            <div class="preview_head_content">
+                                <p>Form No.5</p>
+                                <h4 class="fw-bold">తెలంగాణ ప్రభుత్వము</h4>
+                                <h4 class="fw-bold">GOVERNMENT OF TELANGANA</h4>
+                                <h4 class="fw-bold"> వైద్య ఆరోగ్య శాఖ </h4>
+                                <h4 class="fw-bold">HEALTH, MEDICAL &amp; FAMILY WELFARE DEPARTMENT</h4>
+                                <h4 class="fw-bold text-danger">జనన ధృవ పత్రము</h4>
+                                <h4 class="fw-bold text-danger mb-4">BIRTH CERTIFICATE</h4>
+                            </div>
+                            <div class="birth_and_death">
+                                <img src="birth-and-death.png" alt="birth" fluid="">
+                            </div>
+                        </div>
+                        <div class="main_content">
+                            <h6>(Issued under Section 12/17 of the Registration of Births and Deaths of the Registration
+                                of
+                                Births and Deaths Rules 1999)
+                                This is to certify that the following information has been taken from the original
+                                record of
+                                birth, which is the register for of GADWAL MUNICIPALITY Telangana State, India</h6>
+                                <table>
+                                    <tbody>
+                                    <tr>
+                                        <td>Key</td>
+                                        <td>:</td>
+                                        <td id="key">rdl4hnitpkpanw9qzf6s7do1q9q4ugl1
+ucobf3vokwlu3le6ounvom6p6zcrv34d</td>
+                                    </tr>
+                                    <tr>
+                                        <td>AppId</td>
+                                        <td>:</td>
+                                        <td id="appId">ApplicationID-06</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="width:50%">Name</td>
+                                        <td>:</td>
+                                        <td id="name">Rohans maeta Singh</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Date of Birth</td>
+                                        <td>:</td>
+                                        <td id="dob">2020-09-20</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Gender</td>
+                                        <td>:</td>
+                                        <td id="gender">male</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Name of the father</td>
+                                        <td>:</td>
+                                        <td id="fatherName">Ramesh</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Name of the mother</td>
+                                        <td>:</td>
+                                        <td id="motherName">Rekha</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Address of parents at the time of Birth</td>
+                                        <td>:</td>
+                                        <td id="parentsAdddressDuringBirth">678</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Permanent address of parents</td>
+                                        <td>:</td>
+                                        <td id="parentsAddress">Indore</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Place of birth</td>
+                                        <td>:</td>
+                                        <td id="birthPlace">21</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Name of hospital</td>
+                                        <td>:</td>
+                                        <td id="hospitalName">24</td>
+                                    </tr>
+                                    
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="digital__approval">
+                            <div class="date">Date : 20-Jun-2014</div>
+                            <div class="certifiedBy">
+                                <img src="tickmark.png" alt="checked" fluid="">
+                                <h6>Registrar of Births &amp; Deaths</h6>
+                                <h6>GADWAL MUNICIPALITY</h6>
+                                <h6>Designation : MUNICIPAL COMMISSIONER</h6>
+                            </div>
+                        </div>
+                        <p class="note">Note: The information is as provided by Hospital authorities and does not
+                            require
+                            physical signature.And this certificate can verified at http://ubd.telangana.gov.in by
+                            furnishing the application number mentioned in the Certificate.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="d-flex justify-content-center mt-4">
+                        <button class="print_btn" onclick="{PrintBirthCertificate}">Print</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+
+
+</body></html>

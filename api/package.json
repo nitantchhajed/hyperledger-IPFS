@@ -1,0 +1,82 @@
+{
+  "name": "fabcar",
+  "version": "1.0.0",
+  "description": "FabCar application implemented in JavaScript",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [
+    "fabric-client sample app",
+    "balance-transfer node sample",
+    "v1.0 fabric nodesdk sample"
+  ],
+  "engines": {
+    "node": ">=8.9.4 <9.0",
+    "npm": ">=5.6.0 <6.0"
+  },
+  "engineStrict": true,
+  "author": "Hyperledger",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@pinata/sdk": "^2.1.0",
+    "axios": "^0.19.0",
+    "bcrypt": "^5.1.0",
+    "bcrypt-nodejs": "^0.0.3",
+    "body-parser": "^1.17.1",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.3",
+    "cron": "^2.3.0",
+    "date-and-time": "^2.4.3",
+    "dotenv": "^16.0.3",
+    "express": "^4.17.1",
+    "express-bearer-token": "^2.1.0",
+    "express-jwt": "^5.1.0",
+    "express-session": "^1.15.2",
+    "express-validator": "^6.14.2",
+    "fabric-ca-client": "^2.2.4",
+    "fabric-client": "~1.4.0",
+    "fabric-network": "^2.2.4",
+    "fs": "^0.0.1-security",
+    "fs-extra": "^2.0.0",
+    "generate-unique-id": "^2.0.1",
+    "jsdom": "^22.1.0",
+    "jsonwebtoken": "^7.3.0",
+    "log4js": "^0.6.38",
+    "mssql": "^9.1.1",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^2.0.21",
+    "oracledb": "^5.5.0",
+    "pg": "^8.10.0",
+    "prom-client": "^11.5.3",
+    "puppeteer": "^20.4.0",
+    "sequelize": "^6.29.3",
+    "sequelize-cli": "^6.6.0",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^5.9.0",
+    "mocha": "^5.2.0",
+    "nyc": "^14.1.1",
+    "sinon": "^7.1.1",
+    "sinon-chai": "^3.3.0"
+  },
+  "nyc": {
+    "exclude": [
+      "coverage/**",
+      "test/**"
+    ],
+    "reporter": [
+      "text-summary",
+      "html"
+    ],
+    "all": true,
+    "check-coverage": true,
+    "statements": 100,
+    "branches": 100,
+    "functions": 100,
+    "lines": 100
+  },
+  "main": ".eslintrc.js"
+}
