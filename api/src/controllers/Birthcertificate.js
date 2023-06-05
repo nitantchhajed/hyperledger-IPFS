@@ -572,7 +572,7 @@ async function filterBirthCert(req, res, next) {
         return res.status(200).json({
             status: 200,
             success: true,
-            message: "All Death certificate found successfully",
+            message: "All Birth certificate found successfully",
             data: data
         })
 
